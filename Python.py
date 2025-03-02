@@ -1,106 +1,104 @@
 #=========================VARIABLES=======================
 #Create a variable called break and assign it a value 5.
 #See what happens and find out the reason behind the behavior that you see.
-""" break=5"""
+break=5
 
 #===============
 #Create two variables.One to store your birthyear and another oneto store current year.
 #Now calculate your age using these two variables
-""" birth_date=2003
+birth_date=2003
 current_date = 2025
 age=current_date-birth_date
-print(age)"""
+print(age)
 
 #=============
 #store your first, middle and last name in three different variables and
 #then print your full name using these variables
-"""first_name="Jonnagaddala"
+first_name="Jonnagaddala"
 middle_name="Tejaswini"
 last_name="Nagaraju"
-print(first_name+ " " +middle_name+" "+last_name)"""
+print(first_name+ " " +middle_name+" "+last_name)
 
 #===============
 #Answer which of these are invalid variable names:
 # _nation 1record record1 record_one record-one record^one continue
-""" 1record record-one record^one continue"""
+1record record-one record^one continue
 
 
 
 #=================NUMBERS==================
 #You have a football field that is 92 meter long and 48.8 meter wide.
 #Find out total area using python and print it.
-"""length=92
+length=92
 width=48.8
 area=length*width
-print("The area of teh Football field is:" ,area)"""
+print("The area of teh Football field is:" ,area)
 
 
 #You bought 9 packets of potato chips from a store.
 #Each packet costs 1.49 dollar and you gave shopkeeper 20 dollar. Find out using python,
 #how many dollars is the shopkeeper going to give you back?
-"""
+
 num_packets=9
 one_pack=1.49
 total=num_packets*one_pack
 given_to_sp=20
 received_by_sp=(paid-total)
-print("The amount you receive from the shopkeeper is: ", receive)"""
+print("The amount you receive from the shopkeeper is: ", receive)
 
 
 #You want to replace tiles in your bathroom which is exactly square and 5.5 feet is its length.
 #If tiles cost 500 rs per square feet, how much will be the total cost to replace all tiles.
 #Calculate and print the cost using python (Hint: Use power operator ** to find area of a square)
-"""
+
 side=5.5
 area_square=side**2
 cost_per_tile=500
 total_cost=area_square*cost_per_tile
 print(area_square)
-print("The total cost required to repalce the tiles in the bathroom is: " , total_cost)"""
+print("The total cost required to repalce the tiles in the bathroom is: " , total_cost)
 
 
 
 #Print binary representation of number 17
-"""
 num = 17
-print("The binary representation of number 17 is:", format(num, 'b'))"""
+print("The binary representation of number 17 is:", format(num, 'b'))
 
 #=================STRINGS==================
 # 1. Create 3 variables to store street, city and country, now create address variable to
 # store entire address. Use two ways of creating this variable, one using + operator and the
 #other using f-string.
 # Now Print the address in such a way that the street, city and country prints in a separate line
-"""
 street = "Hanuman Ghatt"
 city = "Bengalore"
 country = "Electronic city"
 address = street + '\n' + city + '\n' + country
 print("Address using + operator:",address)
 address = f'{street}\n{city}\n{country}'
-print("Address using f-string:",address)"""
+print("Address using f-string:",address)
 
 #Create a variable to store the string "Earth revolves around the sun"
 #Print "revolves" using slice operator
 #Print "sun" using negative index
 
-"""sentence="Earth revolves around the sun"
+sentence="Earth revolves around the sun"
 print(sentence[6:14])
-print(sentence[-4:])"""
+print(sentence[-4:])
 
 #Create two variables to store how many fruits and vegetables you eat in a day.
 #Now Print "I eat x veggies and y fruits daily" where x and y presents vegetables and fruits that you eat everyday.
 #Use python f string for this.
-"""veggies="5"
+veggies="5"
 fruits="6"
-print(f'i eat {veggies} veggies and {fruits} fruits daily.')"""
+print(f'i eat {veggies} veggies and {fruits} fruits daily.')
 
 #I have a string variable called s='maine 200 banana khaye'. This of course is a wrong statement,
 #the correct statement is 'maine 10 samosa khaye'.
 #Replace incorrect words in original strong with new ones and print the new string.
 #Also try to do this in one line
-"""s='maine 200 banana khaye'
+s='maine 200 banana khaye'
 s=s.replace('banana' , 'samosa').replace('200','10')
-print(s)"""
+print(s)
 
 #=======================IF STATEMENTS========================
 #Write a python program that can tell you if your sugar is normal or not. Normal fasting level sugar range is 80 to 100.
@@ -108,14 +106,14 @@ print(s)"""
 #If it is below 80 to 100 range then print that sugar is low
 #If it is above 100 then print that it is high otherwise print that it is normal
 
-"""sugar_level=input("Enter your sugar level:")
+sugar_level=input("Enter your sugar level:")
 sugar_level=float(sugar_level)
 if sugar_level<80:
     print("Your sugar level is low")
 elif sugar_level>100:
     print("Your sugar level is high")
 else:
-    print("Your sugar level is normal")"""
+    print("Your sugar level is normal")
 
 #Using following list of cities per country,
 #india = ["mumbai", "banglore", "chennai", "delhi"]
@@ -127,7 +125,7 @@ else:
 #dhaka it should print "They don't belong to same country"
 
 
-"""india = ["mumbai", "banglore", "chennai", "delhi"]
+india = ["mumbai", "banglore", "chennai", "delhi"]
 pakistan = ["lahore","karachi","islamabad"]
 bangladesh = ["dhaka", "khulna", "rangpur"]
 city_name=input("Enter your city name:")
@@ -138,10 +136,10 @@ elif city_name in pakistan:
 elif city_name in bangladesh:
     print("You are in Bangladesh")
 else:
-    print("Not a valid city name")"""
+    print("Not a valid city name")
 #===============================================
 
-"""india = ["mumbai", "banglore", "chennai", "delhi"]
+india = ["mumbai", "banglore", "chennai", "delhi"]
 pakistan = ["lahore","karachi","islamabad"]
 bangladesh = ["dhaka", "khulna", "rangpur"]
 city1=input("Enter your first city name:")
@@ -153,16 +151,16 @@ elif city1 in pakistan and city2 in pakistan:
 elif city1 in bangladesh and city2 in bangladesh:
     print("Both cities are in same country Bangladesh.")
 else:
-    print("Both cities are not in same country")"""
+    print("Both cities are not in same country")
 
 #==========================LOOPS==================================
 
 #Print square of all numbers between 1 to 10 except even numbers
 
-"""for i in range(11):
+for i in range(11):
     if i%2==0:
         continue
-    print(i*i)"""
+    print(i*i)
 
 
 #Your monthly expense list (from Jan to May) looks like this,
@@ -171,7 +169,7 @@ else:
 #which month that expense occurred.
 #If expense is not found then it should print that as well.
 
-"""month_list = ["January", "February", "March", "April", "May"]
+month_list = ["January", "February", "March", "April", "May"]
 expense_list = [2340, 2500, 2100, 3100, 2980]
 expense = int(input("Enter expense amount: "))
 
@@ -184,7 +182,7 @@ for i in range(len(expense_list)):
 if month != -1:
     print(f'You spent {expense} in {month_list[month]}')
 else:
-    print(f'You didn\'t spend {expense} in any month')"""
+    print(f'You didn\'t spend {expense} in any month')
 
 
 
@@ -192,12 +190,12 @@ else:
 #result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
 #Using for loop figure out how many times you got heads
 
-"""result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
+result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
 count=0
 for item in result:
     if item == "heads":
         count+=1
-        print(count)"""
+        print(count)
 
 
 #Lets say you are running a 5 km race. Write a program that,
@@ -207,7 +205,7 @@ for item in result:
 #If you reply "no" then it should continue and ask "are you tired" on every km
 #If you finish all 5 km then it should print congratulations message
 
-"""race_distance=5
+race_distance=5
 for i in range(race_distance):
     print("You ran",i+1 ,"miles")
     ask1=input("Are you tired?")
@@ -215,10 +213,10 @@ for i in range(race_distance):
         print("You didnt finsih the race")
         break
     else:
-        print("Congrats , you finished the race.")"""
+        print("Congrats , you finished the race.")
 #================(or)=====================
 
-"""for i in range(5):
+for i in range(5):
     print(f"You ran {i+1} miles") # i starts with zero hence adding 1
     tired = input("Are you tired? ")
     if tired == 'yes':
@@ -227,7 +225,7 @@ for i in range(race_distance):
 if i == 4: # 4 because the index starts from 0
     print("Hurray! You are a rock star! You just finished 5 km race!")
 else:
-    print("You didn't finish 5 km race but hey congrats anyways! You still ran {i+1} miles")"""
+    print("You didn't finish 5 km race but hey congrats anyways! You still ran {i+1} miles")
 
 
 #Write a program that prints following shape
@@ -238,11 +236,11 @@ else:
 #****
 #*****
 
-"""for i in range(1,6):
+for i in range(1,6):
     s=" "
     for j in range(i):
         s+="*"
-    print(s)"""
+    print(s)
 
 
 #=============================FUNCTIONS=============================
@@ -250,14 +248,13 @@ else:
 #Write a function called calculate_area that takes base and height as an input and returns and area of a triangle. Equation of an area of a triangle is,
 #area = (1/2)*base*height
 
-"""def calculate_area(base,height):
+def calculate_area(base,height):
     area = (1/2)*base*height
     return area
 area_of_triangle=calculate_area(5,6)
-print("Area of the triangle:" ,area_of_triangle)"""
-
-
-"""def calculate_area(d1,d2,s="triangle"):
+print("Area of the triangle:" ,area_of_triangle)
+#================================================================
+def calculate_area(d1,d2,s="triangle"):
     if s=='triangle':
         area = (1/2)*d1*d2
     elif s=='rectangle':
@@ -276,7 +273,7 @@ rectangle_area=calculate_area(length,width,"rectangle")
 print("Area of rectangle is:",rectangle_area)
 
 triangle_area=calculate_area(base,height) 
-print("Area of triangle with no shape supplied: ",triangle_area)"""
+print("Area of triangle with no shape supplied: ",triangle_area)
 
 #========================DICTIONARY=========================================
 
@@ -303,7 +300,7 @@ print("Area of triangle with no shape supplied: ",triangle_area)"""
 #query: on this again ask user for which country he or she wants to query.
 #When user inputs that country it will print population of that country.
 
-"""count_pop={'china':143 , 'india':136 , 'usa':32, 'pakistan':21}
+count_pop={'china':143 , 'india':136 , 'usa':32, 'pakistan':21}
 print(count_pop)
 info=input("Do you like to enter a country:")
 country=input("Enter a country name:")
@@ -324,8 +321,9 @@ if query in count_pop:
     print(count_pop[query])
 else:
     print("Country you requested doesnot exists")
-print(count_pop)"""
+print(count_pop)
 
+#=============================================================================
 #You are given following list of stocks and their prices in last 3 days,
 
 #Stock	Prices
@@ -342,7 +340,7 @@ print(count_pop)"""
 #Otherwise it will create new entry in your dictionary.
 #For example entering 'tata' and 560 will add tata ==> [560] to the dictionary of stocks.
 
-"""stockvalues={'info':[600,630,620] , 'ril':[1430,1490,1567],'tl':[234,180,160]}
+stockvalues={'info':[600,630,620] , 'ril':[1430,1490,1567],'tl':[234,180,160]}
 info=[600,630,620]
 ril=[1430,1490,1567]
 tl=[234,180,160]
@@ -377,14 +375,14 @@ price = list(map(int, input("Enter the price of your stock (space-separated): ")
 
 stockvalues.update({stock: price})
 
-print(stockvalues)"""
+print(stockvalues)
 
 
 #Write circle_calc() function that takes radius of a circle as an input from user and then it calculates and
 #returns area, circumference and diameter. You should get these values in your main program by calling
 #circle_calc function and then print them Solution
 
-"""import math
+import math
 
 def circle_calc(radius):
     area = math.pi * radius ** 2
@@ -396,7 +394,7 @@ area, diameter, circumference = circle_calc(r)
 
 print("Area:",area)
 print("Diameter:",diameter)
-print("Circumference:" , circumference)"""
+print("Circumference:" , circumference)
 
 
 #=======================================DATASTRUCTURES=============================
@@ -417,7 +415,7 @@ print("Circumference:" , circumference)"""
 #got a refund of 200$. Make a correction to your monthly expense list
 #based on this
 
-"""exp=[2200,2350,2600,2130,2190]
+exp=[2200,2350,2600,2130,2190]
 print(" In february dollars you spent extra compare to January:",exp[1]-exp[0])
 print("Your total expense for the first five months are:" , exp[0]+exp[1]+exp[2]+exp[3]+exp[4],"dollars")
 for i in range(len(exp)):
@@ -429,21 +427,21 @@ for i in range(len(exp)):
 exp.append(1980)
 print(exp)
 exp[3]=2800
-print(exp)"""
+print(exp)
 
 #another way of taking user input for list 
-"""exp = list(map(int, input("Enter the values you spent in the first five months (space-separated): ").split()))"""
+exp = list(map(int, input("Enter the values you spent in the first five months (space-separated): ").split()))
 
 
 # when you take input from user in other way
-"""exp = []  # Empty list to store expenses
+exp = []  # Empty list to store expenses
 print("Enter the values you spent in the first five months:")
 
 for i in range(5):
     amount = int(input(f"Month {i+1}: "))  # Take input and convert to integer
     exp.append(amount)  # Append to list
 
-print("Your expenses for the first five months:", exp)"""
+print("Your expenses for the first five months:", exp)
 
 
 
@@ -460,7 +458,7 @@ print("Your expenses for the first five months:", exp)"""
 #   Do that with one line of code.
 #5. Sort the heros list in alphabetical order (Hint. Use dir() functions to list down all functions available in list)
 
-"""heros=['spider man','thor','hulk','iron man','captain america']
+heros=['spider man','thor','hulk','iron man','captain america']
 heros.append('black panther')
 print(heros)
 heros.remove('black panther')
@@ -469,37 +467,37 @@ heros.insert(3,'black panther')
 heros[1:3]=['doctor strange']
 heros.sort()
 print(len(heros))
-print(heros)"""
+print(heros)
 
 
 
 #Create a list of all odd numbers between 1 and a max number.
 #Max number is something you need to take from a user using input() function
 
-"""max_num=int(input("Enter your Number:"))
+max_num=int(input("Enter your Number:"))
 odd=[]
 for i in range(1,max_num):
     if i%2==1:
         odd.append(i)
-print(odd)"""
-
-"""max_num=22
+print(odd)
+#======================================================
+max_num=22
 min_num=2
 odd=[]
 for i in range(2,22):
     if i%2==1:
         odd.append(i)
-print(odd)"""
+print(odd)
 
 
 
 #Given an array, find the maximum and minimum element.
 
-"""arr=[2,3,4,5,6,7]
+arr=[2,3,4,5,6,7]
 print(max(arr))
-print(min(arr))"""
+print(min(arr))
 #another way of find min and max with out using built in functions
-"""def find_min_max(arr):
+def find_min_max(arr):
     if not arr:
         return None,None
     min_num=arr[0]
@@ -515,14 +513,14 @@ print(min(arr))"""
 arr=list(map(int,input("Enter your array:").split()))
 minimum,maximum=find_min_max(arr)
 print(minimum,maximum)
-print(arr[::-1]) #Given an array, reverse the elements """
+print(arr[::-1]) #Given an array, reverse the elements 
 
 #Given an array, find the second largest element without sorting.
-"""arr=[2,3,4,5]
-print(max(arr))"""
+arr=[2,3,4,5]
+print(max(arr))
 
 #Given an array, check if it is sorted in non-decreasing order.
-"""def sort_arr(arr):
+def sort_arr(arr):
     arr.sort()
     return arr
 
@@ -531,66 +529,59 @@ print(arr)
 if arr.sort==True:
     print(arr)
 else:
-    print("Not yet.. processing...",sort_arr(arr),"Done")"""
+    print("Not yet.. processing...",sort_arr(arr),"Done")
 
 
 #Given a sorted array, remove duplicate elements in-place.
-"""arr={2,3,4,5,6,7,2,4,3}
-for num in arr:
-    if arr[num]==arr[num]:
-        arr.remove(num)           #this is not workinggggggg  
-    else:
-        print("cant")
-print(arr)"""
-
-"""arr = list(map(int, input("Enter your array: ").split()))
+#========================================================================
+arr = list(map(int, input("Enter your array: ").split()))
 arr = list(set(arr))  # Remove duplicates
-print("Array after removing duplicates:", arr)"""
-
-"""def remove_dup(arr):
+print("Array after removing duplicates:", arr)
+#========================================================
+def remove_dup(arr):
     unique_ele=[]
     for i in arr:
         if i not in unique_ele:
             unique_ele.append(i)
     return unique_ele
 arr= list(map(int, input("Enter your array: ").split()))
-print(remove_dup(arr))"""
+print(remove_dup(arr))
 
 
 
 #Given two arrays, find their union and intersection
 
 
-"""arr1 = list(map(int, input("Enter your array: ").split()))
+arr1 = list(map(int, input("Enter your array: ").split()))
 arr2 = list(map(int, input("Enter your array: ").split()))
 arr1=(set(arr1))
 arr2=(set(arr2))
 union=(arr1.union(arr2))
 intersection=(arr1.intersection(arr2))
 print(list(union))
-print(list(intersection))"""
+print(list(intersection))
 
 
 #Given a sorted array, find the first and last position 
 
-"""arr=[2,3,4,5,6]
+arr=[2,3,4,5,6]
 print(arr[0])
-print(arr[-1])"""
+print(arr[-1])
 
 
 #palindrome
-"""num=input("Enter your value:")
+num=input("Enter your value:")
 num[::-1]
 #print(int(num))
-print(str(num))"""
+print(str(num))
 
 #count no of digits
-"""num=int(input("Enter your number:"))
+num=int(input("Enter your number:"))
 count=0
 while num!=0:
     num//=10
     count+=1
-print(count)"""
+print(count)
 
 
 #Reverse a string using a loop
