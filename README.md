@@ -12,6 +12,6 @@
 10.A Brief Notes of Python.</i><br>
 ==============================================<br>
 Note:<br>
-Queue is added in the another branch if you are willing to check it once change the branch and also the queue which is in blue color will not work at some situations so try opening the Queuep .
+Queue which is in blue color will not work at some situations so try opening the Queuep .
 
 
