@@ -1,13 +1,14 @@
 # Python Topics Covered
 <i>
-1.Arrays & Strings.<br>
-2.Linked Lists.<br>
-3.Stacks & Queues.<br>
-4.Trees.<br>
-5.Sorting Algorithms.<br>
-6.Recursion.<br>
-7.Basic Python Programs.<br>
-8.Unit Conversions.<br>
-9.A Brief Notes of Python.</i>
+1.Arrays
+2.Strings.<br>
+3.Linked Lists.<br>
+4.Stacks & Queues.<br>
+5.Trees.<br>
+6.Sorting Algorithms.<br>
+7.Recursion.<br>
+8.Basic Python Programs.<br>
+9.Unit Conversions.<br>
+10.A Brief Notes of Python.</i>
 
 
