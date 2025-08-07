@@ -1,6 +1,6 @@
 # Python Topics Covered
 <i>
-1.Arrays
+1.Arrays.<br>
 2.Strings.<br>
 3.Linked Lists.<br>
 4.Stacks & Queues.<br>
