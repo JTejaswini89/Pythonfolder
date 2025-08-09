@@ -1,15 +1,18 @@
 # Python Topics Covered
 <i>
-1.Arrays.<br>
-2.Strings.<br>
-3.Linked Lists.<br>
-4.Stacks & Queues.<br>
-5.Trees.<br>
-6.Sorting Algorithms.<br>
-7.Recursion.<br>
-8.Basic Python Programs.<br>
-9.Unit Conversions.<br>
-10.A Brief Notes of Python.</i><br>
+1.A Brief Notes of Python.<br>
+2.Arrays.<br>
+3.Strings.<br>
+4.Linked Lists.<br>
+5.Stacks & Queues.<br>
+6.Trees.<br>
+7.Sorting Algorithms.<br>
+8.Recursion.<br>
+9.Basic Python Programs.<br>
+10.Unit Conversions.<br>
+11.Hand-Written Notes of Python.<br>
+
+</i>
 ==============================================<br>
 Note:<br>
 Queue which is in blue color will not work at some situations so try opening the Queuep .
